@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-RegressionSuitesecond">
+              <span class="suite-name border-failed">RegressionSuitesecond</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-RegressionSuitesecond">
+                    <span>H:\NewWorkspace\POM_Maven\Resources\TestNgReport.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-RegressionSuitesecond">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-RegressionSuitesecond">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-RegressionSuitesecond">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-RegressionSuitesecond">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-RegressionSuitesecond">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-RegressionSuitesecond">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 3 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-RegressionSuitesecond" class="hide-methods failed suite-RegressionSuitesecond"> (hide)</a> <!-- hide-methods failed suite-RegressionSuitesecond -->
+                      <a href="#" panel-name="suite-RegressionSuitesecond" class="show-methods failed suite-RegressionSuitesecond"> (show)</a> <!-- show-methods failed suite-RegressionSuitesecond -->
+                    </span>
+                    <div class="method-list-content failed suite-RegressionSuitesecond">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuitesecond" title="testScript.TestCaseReport" hash-for-method="FailedtestCase1">FailedtestCase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuitesecond" title="testScript.TestCaseReport1" hash-for-method="ValidateLoginTestcaseWithInValidData">ValidateLoginTestcaseWithInValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuitesecond" title="testScript.TestCaseReport2" hash-for-method="validateEcomercesiteFail">validateEcomercesiteFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-RegressionSuitesecond -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RegressionSuitesecond" class="hide-methods passed suite-RegressionSuitesecond"> (hide)</a> <!-- hide-methods passed suite-RegressionSuitesecond -->
+                      <a href="#" panel-name="suite-RegressionSuitesecond" class="show-methods passed suite-RegressionSuitesecond"> (show)</a> <!-- show-methods passed suite-RegressionSuitesecond -->
+                    </span>
+                    <div class="method-list-content passed suite-RegressionSuitesecond">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuitesecond" title="testScript.TestCaseReport" hash-for-method="PassedTestCaseTest">PassedTestCaseTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuitesecond" title="testScript.TestCaseReport1" hash-for-method="ValidateLoginTestcaseWithValidData">ValidateLoginTestcaseWithValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuitesecond" title="testScript.TestCaseReport1" hash-for-method="ValidateLoginTestcaseWithValidandInvalidData">ValidateLoginTestcaseWithValidandInvalidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuitesecond" title="testScript.TestCaseReport" hash-for-method="passedtestCase">passedtestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuitesecond" title="testScript.TestCaseReport2" hash-for-method="validateEcomercesite">validateEcomercesite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RegressionSuitesecond" title="testScript.TestCaseReport2" hash-for-method="validateEcomercesitePass">validateEcomercesitePass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RegressionSuitesecond -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RegressionSuitesecond" class="panel RegressionSuitesecond">
+          <div class="suite-RegressionSuitesecond-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testScript.TestCaseReport2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateEcomercesiteFail">
+                  </a> <!-- validateEcomercesiteFail -->
+                  <span class="method-name">validateEcomercesiteFail</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testScript.TestCaseReport2.validateEcomercesiteFail(TestCaseReport2.java:17)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuitesecond-class-failed -->
+          <div class="suite-RegressionSuitesecond-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testScript.TestCaseReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FailedtestCase1">
+                  </a> <!-- FailedtestCase1 -->
+                  <span class="method-name">FailedtestCase1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testScript.TestCaseReport.FailedtestCase1(TestCaseReport.java:20)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuitesecond-class-failed -->
+          <div class="suite-RegressionSuitesecond-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testScript.TestCaseReport1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateLoginTestcaseWithInValidData">
+                  </a> <!-- ValidateLoginTestcaseWithInValidData -->
+                  <span class="method-name">ValidateLoginTestcaseWithInValidData</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testScript.TestCaseReport1.ValidateLoginTestcaseWithInValidData(TestCaseReport1.java:17)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuitesecond-class-failed -->
+          <div class="suite-RegressionSuitesecond-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScript.TestCaseReport2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateEcomercesite">
+                  </a> <!-- validateEcomercesite -->
+                  <span class="method-name">validateEcomercesite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateEcomercesitePass">
+                  </a> <!-- validateEcomercesitePass -->
+                  <span class="method-name">validateEcomercesitePass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuitesecond-class-passed -->
+          <div class="suite-RegressionSuitesecond-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScript.TestCaseReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PassedTestCaseTest">
+                  </a> <!-- PassedTestCaseTest -->
+                  <span class="method-name">PassedTestCaseTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passedtestCase">
+                  </a> <!-- passedtestCase -->
+                  <span class="method-name">passedtestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuitesecond-class-passed -->
+          <div class="suite-RegressionSuitesecond-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScript.TestCaseReport1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateLoginTestcaseWithValidData">
+                  </a> <!-- ValidateLoginTestcaseWithValidData -->
+                  <span class="method-name">ValidateLoginTestcaseWithValidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateLoginTestcaseWithValidandInvalidData">
+                  </a> <!-- ValidateLoginTestcaseWithValidandInvalidData -->
+                  <span class="method-name">ValidateLoginTestcaseWithValidandInvalidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuitesecond-class-passed -->
+        </div> <!-- panel RegressionSuitesecond -->
+        <div panel-name="test-xml-RegressionSuitesecond" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">H:\NewWorkspace\POM_Maven\Resources\TestNgReport.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;RegressionSuitesecond&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;customListner.Listner&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;FirstTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testScript.TestCaseReport&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FirstTests --&gt;
+  &lt;test name=&quot;secondTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testScript.TestCaseReport1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- secondTests --&gt;
+  &lt;test name=&quot;ThirdTestCase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testScript.TestCaseReport2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ThirdTestCase --&gt;
+&lt;/suite&gt; &lt;!-- RegressionSuitesecond --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RegressionSuitesecond" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RegressionSuitesecond</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FirstTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">secondTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ThirdTestCase (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RegressionSuitesecond" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RegressionSuitesecond</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RegressionSuitesecond" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RegressionSuitesecond</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RegressionSuitesecond');
+function tableData_RegressionSuitesecond() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'FailedtestCase1')
+data.setCell(0, 2, 'testScript.TestCaseReport')
+data.setCell(0, 3, 23);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateEcomercesitePass')
+data.setCell(1, 2, 'testScript.TestCaseReport2')
+data.setCell(1, 3, 9);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'PassedTestCaseTest')
+data.setCell(2, 2, 'testScript.TestCaseReport')
+data.setCell(2, 3, 4);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'passedtestCase')
+data.setCell(3, 2, 'testScript.TestCaseReport')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ValidateLoginTestcaseWithValidData')
+data.setCell(4, 2, 'testScript.TestCaseReport1')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ValidateLoginTestcaseWithInValidData')
+data.setCell(5, 2, 'testScript.TestCaseReport1')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateEcomercesite')
+data.setCell(6, 2, 'testScript.TestCaseReport2')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateEcomercesiteFail')
+data.setCell(7, 2, 'testScript.TestCaseReport2')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ValidateLoginTestcaseWithValidandInvalidData')
+data.setCell(8, 2, 'testScript.TestCaseReport1')
+data.setCell(8, 3, 0);
+window.suiteTableData['RegressionSuitesecond']= { tableData: data, tableDiv: 'times-div-RegressionSuitesecond'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 42 ms</span>
+              <div id="times-div-RegressionSuitesecond">
+              </div> <!-- times-div-RegressionSuitesecond -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RegressionSuitesecond" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RegressionSuitesecond</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">PassedTestCaseTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started running:PassedTestCaseTest at:16</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">passedtestCase</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started running:passedtestCase at:16</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FailedtestCase1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started running:FailedtestCase1 at:16</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ValidateLoginTestcaseWithValidData</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started running:ValidateLoginTestcaseWithValidData at:16</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ValidateLoginTestcaseWithValidandInvalidData</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started running:ValidateLoginTestcaseWithValidandInvalidData at:16</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ValidateLoginTestcaseWithInValidData</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started running:ValidateLoginTestcaseWithInValidData at:16</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateEcomercesite</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started running:validateEcomercesite at:16</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateEcomercesitePass</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started running:validateEcomercesitePass at:16</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateEcomercesiteFail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started running:validateEcomercesiteFail at:16</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RegressionSuitesecond" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RegressionSuitesecond" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScript.TestCaseReport</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">open</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testScript.TestCaseReport.FailedtestCase1())</span>
+                <span class="method-start">5331 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">FailedtestCase1</span>
+                <span class="method-start">5351 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=FailedtestCase1 status=FAILURE method=TestCaseReport.FailedtestCase1()[pri:0, insta...)</span>
+                <span class="method-start">5390 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testScript.TestCaseReport.PassedTestCaseTest())</span>
+                <span class="method-start">5394 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PassedTestCaseTest</span>
+                <span class="method-start">5395 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=PassedTestCaseTest status=SUCCESS method=TestCaseReport.PassedTestCaseTest()[pri:0,...)</span>
+                <span class="method-start">5401 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testScript.TestCaseReport.passedtestCase())</span>
+                <span class="method-start">5405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">passedtestCase</span>
+                <span class="method-start">5406 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=passedtestCase status=SUCCESS method=TestCaseReport.passedtestCase()[pri:0, instanc...)</span>
+                <span class="method-start">5410 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">5410 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScript.TestCaseReport1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidateLoginTestcaseWithInValidData</span>
+                <span class="method-start">7973 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateLoginTestcaseWithValidData</span>
+                <span class="method-start">7976 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateLoginTestcaseWithValidandInvalidData</span>
+                <span class="method-start">7979 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScript.TestCaseReport2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateEcomercesite</span>
+                <span class="method-start">8007 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateEcomercesiteFail</span>
+                <span class="method-start">8009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateEcomercesitePass</span>
+                <span class="method-start">8016 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

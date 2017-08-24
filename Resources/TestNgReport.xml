@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuitesecond">
+<listeners>
+<listener class-name="customListner.Listner"/>
+</listeners>
+  <test name="FirstTests">
+    <classes>
+      <class name="testScript.TestCaseReport"/>
+    </classes>
+  </test> <!-- Test --> 
+
+
+
+ <test name="secondTests">
+    <classes>
+      <class name="testScript.TestCaseReport1"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+ <test name="ThirdTestCase">
+    <classes>
+      <class name="testScript.TestCaseReport2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

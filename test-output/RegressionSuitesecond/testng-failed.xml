@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuitesecond]">
+  <listeners>
+    <listener class-name="customListner.Listner"/>
+  </listeners>
+  <test name="FirstTests(failed)">
+    <classes>
+      <class name="testScript.TestCaseReport">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="FailedtestCase1"/>
+          <include name="afterMethod"/>
+          <include name="open"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- testScript.TestCaseReport -->
+    </classes>
+  </test> <!-- FirstTests(failed) -->
+  <test name="secondTests(failed)">
+    <classes>
+      <class name="testScript.TestCaseReport1">
+        <methods>
+          <include name="ValidateLoginTestcaseWithInValidData"/>
+        </methods>
+      </class> <!-- testScript.TestCaseReport1 -->
+    </classes>
+  </test> <!-- secondTests(failed) -->
+  <test name="ThirdTestCase(failed)">
+    <classes>
+      <class name="testScript.TestCaseReport2">
+        <methods>
+          <include name="validateEcomercesiteFail"/>
+        </methods>
+      </class> <!-- testScript.TestCaseReport2 -->
+    </classes>
+  </test> <!-- ThirdTestCase(failed) -->
+</suite> <!-- Failed suite [RegressionSuitesecond] -->

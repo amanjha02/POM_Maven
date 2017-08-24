@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[Test started running:FirstTest at:16]]>
+    </line>
+    <line>
+      <![CDATA[Test started running:FirstTest1 at:16]]>
+    </line>
+    <line>
+      <![CDATA[Test started running:FirstTest2 at:16]]>
+    </line>
+    <line>
+      <![CDATA[Test started running:FirstTest1 at:16]]>
+    </line>
+    <line>
+      <![CDATA[Test started running:FirstTest2 at:16]]>
+    </line>
+    <line>
+      <![CDATA[Test started running:FirstTest at:16]]>
+    </line>
+    <line>
+      <![CDATA[Test started running:FirstTest1 at:16]]>
+    </line>
+    <line>
+      <![CDATA[Test started running:FirstTest2 at:16]]>
+    </line>
+    <line>
+      <![CDATA[Test started running:FirstTest1 at:16]]>
+    </line>
+    <line>
+      <![CDATA[Test started running:FirstTest2 at:16]]>
+    </line>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="214" started-at="2017-08-15T07:59:37Z" finished-at="2017-08-15T07:59:38Z">
+    <groups>
+    </groups>
+    <test name="FirstTests" duration-ms="87" started-at="2017-08-15T07:59:37Z" finished-at="2017-08-15T07:59:37Z">
+      <class name="testScript.Tc_0001Login">
+        <test-method status="PASS" signature="FirstTest()[pri:0, instance:testScript.Tc_0001Login@19dfb72a]" name="FirstTest" duration-ms="21" started-at="2017-08-15T13:29:37Z" finished-at="2017-08-15T13:29:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started running:FirstTest at:16]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FirstTest -->
+        <test-method status="PASS" signature="FirstTest1()[pri:0, instance:testScript.Tc_0001Login@19dfb72a]" name="FirstTest1" duration-ms="0" started-at="2017-08-15T13:29:37Z" finished-at="2017-08-15T13:29:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started running:FirstTest1 at:16]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FirstTest1 -->
+        <test-method status="PASS" signature="FirstTest2()[pri:0, instance:testScript.Tc_0001Login@19dfb72a]" name="FirstTest2" duration-ms="0" started-at="2017-08-15T13:29:37Z" finished-at="2017-08-15T13:29:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started running:FirstTest2 at:16]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FirstTest2 -->
+      </class> <!-- testScript.Tc_0001Login -->
+    </test> <!-- FirstTests -->
+    <test name="secondTests" duration-ms="4" started-at="2017-08-15T07:59:38Z" finished-at="2017-08-15T07:59:38Z">
+      <class name="testScript.TestCaseLogin_001_DataProvider">
+        <test-method status="PASS" signature="FirstTest1()[pri:0, instance:testScript.TestCaseLogin_001_DataProvider@3498ed]" name="FirstTest1" duration-ms="0" started-at="2017-08-15T13:29:38Z" finished-at="2017-08-15T13:29:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started running:FirstTest1 at:16]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FirstTest1 -->
+        <test-method status="PASS" signature="FirstTest2()[pri:0, instance:testScript.TestCaseLogin_001_DataProvider@3498ed]" name="FirstTest2" duration-ms="1" started-at="2017-08-15T13:29:38Z" finished-at="2017-08-15T13:29:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started running:FirstTest2 at:16]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FirstTest2 -->
+      </class> <!-- testScript.TestCaseLogin_001_DataProvider -->
+    </test> <!-- secondTests -->
+  </suite> <!-- RegressionSuite -->
+  <suite name="RegressionSuitesecond" duration-ms="36" started-at="2017-08-15T07:59:38Z" finished-at="2017-08-15T07:59:38Z">
+    <groups>
+    </groups>
+    <test name="FirstTests" duration-ms="9" started-at="2017-08-15T07:59:38Z" finished-at="2017-08-15T07:59:38Z">
+      <class name="testScript.Tc_0001Login">
+        <test-method status="PASS" signature="FirstTest()[pri:0, instance:testScript.Tc_0001Login@668bc3d5]" name="FirstTest" duration-ms="1" started-at="2017-08-15T13:29:38Z" finished-at="2017-08-15T13:29:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started running:FirstTest at:16]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FirstTest -->
+        <test-method status="PASS" signature="FirstTest1()[pri:0, instance:testScript.Tc_0001Login@668bc3d5]" name="FirstTest1" duration-ms="1" started-at="2017-08-15T13:29:38Z" finished-at="2017-08-15T13:29:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started running:FirstTest1 at:16]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FirstTest1 -->
+        <test-method status="PASS" signature="FirstTest2()[pri:0, instance:testScript.Tc_0001Login@668bc3d5]" name="FirstTest2" duration-ms="1" started-at="2017-08-15T13:29:38Z" finished-at="2017-08-15T13:29:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started running:FirstTest2 at:16]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FirstTest2 -->
+      </class> <!-- testScript.Tc_0001Login -->
+    </test> <!-- FirstTests -->
+    <test name="secondTests" duration-ms="3" started-at="2017-08-15T07:59:38Z" finished-at="2017-08-15T07:59:38Z">
+      <class name="testScript.TestCaseLogin_001_DataProvider">
+        <test-method status="PASS" signature="FirstTest1()[pri:0, instance:testScript.TestCaseLogin_001_DataProvider@73f792cf]" name="FirstTest1" duration-ms="1" started-at="2017-08-15T13:29:38Z" finished-at="2017-08-15T13:29:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started running:FirstTest1 at:16]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FirstTest1 -->
+        <test-method status="PASS" signature="FirstTest2()[pri:0, instance:testScript.TestCaseLogin_001_DataProvider@73f792cf]" name="FirstTest2" duration-ms="0" started-at="2017-08-15T13:29:38Z" finished-at="2017-08-15T13:29:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started running:FirstTest2 at:16]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FirstTest2 -->
+      </class> <!-- testScript.TestCaseLogin_001_DataProvider -->
+    </test> <!-- secondTests -->
+  </suite> <!-- RegressionSuitesecond -->
+</testng-results>
