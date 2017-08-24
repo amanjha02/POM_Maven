@@ -28,6 +28,10 @@ public class TestCaseLogin_001_DataProvider extends TestBase {
 	public void FirstTest2(){
 		System.out.println("First  tEst case2");
 	}
+	@Test
+	public void ThirdTest(){
+		System.out.println("third test case");
+	}
 	
 	/*@BeforeClass
 	public void ssetUp() throws IOException{
