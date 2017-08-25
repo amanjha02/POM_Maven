@@ -21,4 +21,9 @@ public class TestCaseReport2 {
 		System.out.println("Login Test Case Pass");
 		Assert.assertEquals(true, true);
 	}
+	@Test()
+	public void validateEcomercesitePassTesting(){
+		System.out.println("Login Test Case Pass");
+		Assert.assertEquals(true, true);
+	}
 }
